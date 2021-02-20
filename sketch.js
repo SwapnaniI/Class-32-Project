@@ -142,11 +142,13 @@ function textWrite(){
     fill("red")
     text("Great!",400,200);
     text("Collect all the 10 balls!",400,300);
+    text("Use your arrow keys for control",400,250);
   }
   else if(a<5){
     fill("magenta")
     text("Great!, you are playing so well in the dark!",400,200);
     text("Collect all the 10 balls!",400,300);
+    text("Use your arrow keys for control",400,250);
   }
   pop();
 }
